@@ -13,6 +13,20 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors:{
+        lamaSky:"#C3EBFA",
+        lamaSkyLight:"#EDF9FD",
+        lamaPurple: "#DFDEFF",
+        lamaPurpleLight: "#F1F0FF",
+        lamaYellow: "#FAE27C",
+        lamaYellowLight: "#FEFCEB",
+        primary:'#48BB78',
+        secondary:'#2f855a',
+        accent:'#38a169',
+        neutral:'#f7fafc',
+        text:'#2d3748',
+        highlight:'#bee3f8'
+      }
     },
   },
   plugins: [],

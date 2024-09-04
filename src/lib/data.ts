@@ -2,6 +2,471 @@
 
 export let role = "admin";
 
+export const productsData = [
+  {
+    id: 1,
+    productId: "1234567890",
+    name: "Ikea desk",
+    productType: "Furniture",
+    description: "Table",
+    price: "$1234",
+    stock: "500",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 2,
+    productId: "11223344",
+    name: "Dell Monitor",
+    productType: "Computers",
+    description: "Monitors",
+    price: "$5678",
+    stock: "616",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 3,
+    productId: "46",
+    name: "",
+    productType: "Computers",
+    description: "Monitors",
+    price: "$1822.16",
+    stock: "745",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 4,
+    productId: "53",
+    name: "",
+    productType: "Computers",
+    description: "Monitors",
+    price: "$3849.92",
+    stock: "651",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 5,
+    productId: "23",
+    name: "",
+    productType: "Computers",
+    description: "Monitors",
+    price: "$3516.60",
+    stock: "802",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 6,
+    productId: "10",
+    name: "",
+    productType: "Computers",
+    description: "Monitors",
+    price: "$3833.36",
+    stock: "852",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 7,
+    productId: "45",
+    name: "",
+    productType: "Computers",
+    description: "Monitors",
+    price: "$4618.78",
+    stock: "834",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 8,
+    productId: "60",
+    name: "",
+    productType: "Computers",
+    description: "Monitors",
+    price: "$609.49",
+    stock: "852",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 9,
+    productId: "18",
+    name: "",
+    productType: "Computers",
+    description: "Monitors",
+    price: "$3117.32",
+    stock: "962",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 10,
+    productId: "31",
+    name: "",
+    productType: "Computers",
+    description: "Monitors",
+    price: "$2869.03",
+    stock: "805",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  
+];
+
+export const formsData = [
+  {
+    id: 1,
+    formId: "1234567890",
+    name: "Form1.pdf",
+    formType: "Furniture",
+    description: "Table",
+    createdBy: "jido@bunaw.bi",
+    date: "2/27/2062",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 2,
+    formId: "11223344",
+    name: "Form2.pdf",
+    formType: "Computers",
+    description: "Monitors",
+    createdBy: "jepve@cobwaoj.pw",
+    date: "3/26/2062",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 3,
+    formId: "46",
+    name: "Form3.pdf",
+    formType: "Computers",
+    description: "Monitors",
+    createdBy: "onasiafi@vev.iq",
+    date: "2/3/2066",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 4,
+    formId: "53",
+    name: "Form4.pdf",
+    formType: "Computers",
+    description: "Monitors",
+    createdBy: "zawin@sa.gb",
+    date: "6/24/2075",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 5,
+    formId: "23",
+    name: "Form5.pdf",
+    formType: "Computers",
+    description: "Monitors",
+    createdBy: "fujcip@dih.bs",
+    date: "1/29/2048",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 6,
+    formId: "10",
+    name: "Form6.pdf",
+    formType: "Computers",
+    description: "Monitors",
+    createdBy: "ad@vucaloz.bf",
+    date: "3/13/2098",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 7,
+    formId: "45",
+    name: "Form7.pdf",
+    formType: "Computers",
+    description: "Monitors",
+    createdBy: "goh@wibak.se",
+    date: "5/2/2031",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 8,
+    formId: "60",
+    name: "Form8.pdf",
+    formType: "Computers",
+    description: "Monitors",
+    createdBy: "vi@cesij.gt",
+    date: "8/20/2068",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 9,
+    formId: "18",
+    name: "Form9.pdf",
+    formType: "Computers",
+    description: "Monitors",
+    createdBy: "ejcesne@luvpouz.tv",
+    date: "12/3/2091",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 10,
+    formId: "31",
+    name: "Form10.pdf",
+    formType: "Computers",
+    description: "Monitors",
+    createdBy: "reapuuho@vemab.hn",
+    date: "11/13/2044",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  
+];
+
+export const usersData = [
+  {
+    id: 1,
+    employeeId: "1234567890",
+    name: "John Doe",
+    email: "john@doe.com",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    phone: "1234567890",
+    role: "employee",
+    company: "REMB",
+    address: "123 Main St, Anytown, USA",
+  },
+  {
+    id: 2,
+    employeeId: "1234567890",
+    name: "Jane Doe",
+    email: "jane@doe.com",
+    photo:
+      "https://images.pexels.com/photos/936126/pexels-photo-936126.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    phone: "1234567890",
+    role: "employee",
+    company: "oimb",
+    address: "123 Main St, Anytown, USA",
+  },
+  {
+    id: 3,
+    employeeId: "1234567890",
+    name: "Mike Geller",
+    email: "mike@geller.com",
+    photo:
+      "https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    phone: "1234567890",
+    role: "employee",
+    company: "epap",
+    address: "123 Main St, Anytown, USA",
+  },
+  {
+    id: 4,
+    employeeId: "1234567890",
+    name: "Jay French",
+    email: "jay@gmail.com",
+    photo:
+      "https://images.pexels.com/photos/1187765/pexels-photo-1187765.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    phone: "1234567890",
+    role: "employee",
+    company: "sra",
+    address: "123 Main St, Anytown, USA",
+  },
+  {
+    id: 5,
+    employeeId: "1234567890",
+    name: "Jane Smith",
+    email: "jane@gmail.com",
+    photo:
+      "https://images.pexels.com/photos/1102341/pexels-photo-1102341.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    phone: "1234567890",
+    role: "employee",
+    company: "remb",
+    address: "123 Main St, Anytown, USA",
+  },
+  {
+    id: 6,
+    employeeId: "1234567890",
+    name: "Anna Santiago",
+    email: "anna@gmail.com",
+    photo:
+      "https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    phone: "1234567890",
+    role: "employee",
+    company: "oimb",
+    address: "123 Main St, Anytown, USA",
+  },
+  {
+    id: 7,
+    employeeId: "1234567890",
+    name: "Allen Black",
+    email: "allen@black.com",
+    photo:
+      "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    phone: "1234567890",
+    role: "employee",
+    company: "epap",
+    address: "123 Main St, Anytown, USA",
+  },
+  {
+    id: 8,
+    employeeId: "1234567890",
+    name: "Ophelia Castro",
+    email: "ophelia@castro.com",
+    photo:
+      "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    phone: "1234567890",
+    role: "employee",
+    company: "sra",
+    address: "123 Main St, Anytown, USA",
+  },
+  {
+    id: 9,
+    employeeId: "1234567890",
+    name: "Derek Briggs",
+    email: "derek@briggs.com",
+    photo:
+      "https://images.pexels.com/photos/842980/pexels-photo-842980.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    phone: "1234567890",
+    role: "employee",
+    company: "remb",
+    address: "123 Main St, Anytown, USA",
+  },
+  {
+    id: 10,
+    employeeId: "1234567890",
+    name: "John Glover",
+    email: "john@glover.com",
+    photo:
+      "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    phone: "1234567890",
+    role: "employee",
+    company: "oimb",
+    address: "123 Main St, Anytown, USA",
+  },
+];
+
+export const bidsData = [
+  {
+    id: 1,
+    bidId: "1234567890",
+    name: "Ikea desk",
+    highestBid: "$86,711.26",
+    regularPrice: "$73,985.38",
+    category: "500",
+    productDescription: "Table",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 2,
+    bidId: "11223344",
+    name: "Dell Monitor",
+    highestBid: "$84,943.4",
+    regularPrice: "$50,701.27",
+    category: "616",
+    productDescription: "Monitors",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 3,
+    bidId: "46",
+    name: "",
+    highestBid: "$89,961.68",
+    regularPrice: "$25,818.87",
+    category: "745",
+    productDescription: "Monitors",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 4,
+    bidId: "53",
+    name: "",
+    highestBid: "$54,015.82",
+    regularPrice: "$56,145.82",
+    category: "651",
+    productDescription: "Monitors",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 5,
+    bidId: "23",
+    name: "",
+    highestBid: "$92,149.28",
+    regularPrice: "$84,028.73",
+    category: "802",
+    productDescription: "Monitors",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 6,
+    bidId: "10",
+    name: "",
+    highestBid: "$61,273.3",
+    regularPrice: "$15,61.22",
+    category: "852",
+    productDescription: "Monitors",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 7,
+    bidId: "45",
+    name: "",
+    highestBid: "$29,762.12",
+    regularPrice: "$48,809.71",
+    category: "834",
+    productDescription: "Monitors",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 8,
+    bidId: "60",
+    name: "",
+    highestBid: "$92,322.63",
+    regularPrice: "$83,620.22",
+    category: "852",
+    productDescription: "Monitors",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 9,
+    bidId: "18",
+    name: "",
+    highestBid: "$40,55.91",
+    regularPrice: "$11,198.52",
+    category: "962",
+    productDescription: "Monitors",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  {
+    id: 10,
+    bidId: "31",
+    name: "",
+    highestBid: "$29,847.54",
+    regularPrice: "$96,724.55",
+    category: "805",
+    productDescription: "Monitors",
+    photo:
+      "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  },
+  
+];
+
 export const teachersData = [
   {
     id: 1,
